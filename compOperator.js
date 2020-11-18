@@ -11,7 +11,7 @@ function calc(a, b) {
         return a+b;
     } 
 }
-//console.log(`${calc(3, "k")}`);
+console.log(`${calc(3, 6)}`);
  
 function pointSearch(x, y) {
     if((!x && y !== 0) || (!x && y !==0)) {
@@ -29,7 +29,7 @@ function pointSearch(x, y) {
         return "IV";
     }
 }
-//console.log(`${pointSearch(2, 3)}`);
+console.log(`${pointSearch(2, 3)}`);
 
 function sumPositivNum(num1, num2, num3) {
     let sum = 0;
@@ -53,7 +53,7 @@ function sumPositivNum(num1, num2, num3) {
     }
     return sum;
 }
-//console.log(`${sumPositivNum(3, 4, 0)}`);
+console.log(`${sumPositivNum(3, 4, 0)}`);
 
 function countMax(a, b, c) {
     if((!a && a !== 0) || (!b && b !== 0) || (!c && c !== 0)) {
@@ -72,7 +72,7 @@ function countMax(a, b, c) {
         return "они равны";
     }
 }
-//console.log(`${countMax(2, 2, 0)}`);
+console.log(`${countMax(2, 2, 0)}`);
 
 function definitionGrade(grade) {
     if(!grade && grade !== 0) {
